@@ -8,7 +8,7 @@
     <title>Mohammad Fareed</title>
     <style>
         header{
-            height: 100px;
+            height: 300px;
             width: 100%;
         }
         /*nav*/
@@ -32,7 +32,13 @@
         i {
             margin-right: 20px;
         }
-
+        a,h1{
+            font-family: Tap-font;
+        }
+        h1{
+            color: #008AAA;
+            font-size: 3em;
+        }
         /*nav buttons Text*/
         #home a,
         #about_me a,
@@ -43,7 +49,7 @@
             align-items: center;
             font-size: large;
             font-weight: bold;
-            font-family: Tap-font;
+            
         }
 
         /*nav buttons text hovers*/
@@ -64,6 +70,25 @@
             font-family: Tap-font;
             src: url(fonts/Poppins-Bold.ttf);
         }
+        .body-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.body-area article {
+    flex: 1; /* تعيين النمو للمقالة */
+}
+
+#mohammad_photo {
+    flex: 2; /* تعيين النمو للصورة */
+    height: 300px; /* أو الارتفاع الذي تفضله */
+    width: 200px; /* للحفاظ على نسب الأبعاد */
+    border-radius: 50px;
+}
+
+
 
     </style>
 </head>
@@ -84,7 +109,7 @@
             <a href="#" class="btn">Hire me !</a>
             <a href="#" class="btn btn-outline">See My Project</a>
         </article>
-        <img src="my-photos\mohammad_fareed.jpg" alt="mohammad">
+        <img src="my-photos\mohammad_fareed.jpg" alt="mohammad" id="mohammad_photo">
     </section>
 
 </body>
