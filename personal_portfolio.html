@@ -39,6 +39,7 @@
             align-items: center;
             font-size: large;
             font-weight: bold;
+            font-family:Tap-font;
         }
 
         /*nav buttons text hovers*/
@@ -54,6 +55,10 @@
         #contact_me:hover i {
             transform: scale(1.2);
         }
+        @font-face {
+            font-family:Tap-font ;
+            src: url(fonts/Poppins-Bold.ttf);
+        }
     </style>
 </head>
 
@@ -63,8 +68,7 @@
             <nav>
                 <button id="home"><a href="#"><i class="fa-solid fa-house"></i>Home</a></button>
                 <button id="about_me"><a href="#2"><i class="fa-solid fa-user"></i>About me</a></button>
-                <buttonid="contact_me" id="contact_me"><a href="#3"><i class="fa-solid fa-phone"></i>Contact
-                        me</a></button>
+                <buttonid="contact_me" id="contact_me"><a href="#3"><i class="fa-solid fa-phone"></i>Contact me</a></button>
             </nav>
         </div>
     </section>
