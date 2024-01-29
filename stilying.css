@@ -1,0 +1,105 @@
+header{
+    height: 150px;
+    width: 100%;
+}
+/*nav*/
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    float: inline-end;
+    margin-top: 20px;
+}
+
+/*nav buttons*/
+#home,
+#about_me,
+#contact_me {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+i {
+    margin-right: 20px;
+}
+a,h1{
+    font-family: Tap-font;
+}
+p{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    color: #008AAA;
+    font-size: 3em;
+}
+/*nav buttons Text*/
+#home a,
+#about_me a,
+#contact_me a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    font-family:Tap-font;
+}
+
+/*nav buttons text hovers*/
+#home:hover a,
+#about_me:hover a,
+#contact_me:hover a {
+    color: #D1884F;
+}
+
+/*nav buttons icons*/
+#home:hover i,
+#about_me:hover i,
+#contact_me:hover i {
+    transform: scale(1.2);
+}
+@font-face {
+    font-family:Tap-font ;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+.body-area {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+}
+
+.body-area article {
+margin-left:150px ;
+flex: 1;
+
+}
+
+#mohammad_photo {
+height: 600px; 
+width: auto; 
+object-fit: cover; 
+border-radius: 50px;
+margin-right:150px ;
+margin-left:150px ;
+}
+#Hire, #See {
+display: inline-block; 
+padding: 10px 20px; 
+text-decoration: none;
+color: #008AAA; 
+background-color: transparent; 
+border-radius: 5px; 
+transition: background-color 0.3s; 
+}
+
+
+#Hire:hover, #See:hover {
+background-color: #3BBADB; 
+color: white;
+box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+
+}
