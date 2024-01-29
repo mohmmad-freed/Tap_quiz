@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="https://kit.fontawesome.com/4d7fe3125c.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Fareed</title>
     <style>
+        /*nav*/
         nav {
             display: flex;
             width: 50%;
@@ -14,29 +16,43 @@
             margin-top: 20px;
         }
 
-        #home, #about_me, #contact_me {
+        /*nav buttons*/
+        #home,
+        #about_me,
+        #contact_me {
             background-color: transparent;
             border: none;
             cursor: pointer;
         }
-        i{
+
+        i {
             margin-right: 20px;
         }
 
-        #home a, #about_me a, #contact_me a {
-            color: black; 
+        /*nav buttons Text*/
+        #home a,
+        #about_me a,
+        #contact_me a {
+            color: black;
             text-decoration: none;
             display: flex;
             align-items: center;
             font-size: large;
             font-weight: bold;
         }
-        #home:hover a, #about_me:hover a, #contact_me:hover a {
-            color: #D1884F; 
+
+        /*nav buttons text hovers*/
+        #home:hover a,
+        #about_me:hover a,
+        #contact_me:hover a {
+            color: #D1884F;
         }
 
-        #home:hover i, #about_me:hover i, #contact_me:hover i {
-            transform: scale(1.2); 
+        /*nav buttons icons*/
+        #home:hover i,
+        #about_me:hover i,
+        #contact_me:hover i {
+            transform: scale(1.2);
         }
     </style>
 </head>
@@ -46,8 +62,9 @@
         <div>
             <nav>
                 <button id="home"><a href="#"><i class="fa-solid fa-house"></i>Home</a></button>
-                <button id="about_me"><a href="#2" ><i class="fa-solid fa-user"></i>About me</a></button>
-                <buttonid="contact_me" id="contact_me"><a href="#3" ><i class="fa-solid fa-phone"></i>Contact me</a></button>
+                <button id="about_me"><a href="#2"><i class="fa-solid fa-user"></i>About me</a></button>
+                <buttonid="contact_me" id="contact_me"><a href="#3"><i class="fa-solid fa-phone"></i>Contact
+                        me</a></button>
             </nav>
         </div>
     </section>
